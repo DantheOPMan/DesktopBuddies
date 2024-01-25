@@ -1,0 +1,10 @@
+{
+    "states": [
+      {"name": "idle", "next_states": [0,1,4,5], "image_file": "idle.gif", "delay": 300, "x_transform": 0, "y_transform": 0},
+      {"name": "idle_to_sleep", "next_states": [2], "image_file": "idle_to_sleep.gif", "delay": 100, "x_transform": 0, "y_transform": 0 },
+      {"name": "sleeping", "next_states": [2,3], "image_file": "sleep.gif", "delay": 1000, "x_transform": 0, "y_transform": 0},
+      {"name": "sleep_to_idle", "next_states": [0], "image_file": "sleep_to_idle.gif", "delay": 100, "x_transform": 0, "y_transform": 0},
+      {"name": "walking_negative", "next_states": [0,4,5], "image_file": "walking_negative.gif", "delay": 100, "x_transform": 10, "y_transform": 0},
+      {"name": "walking_positive", "next_states": [0,4,5], "image_file": "walking_positive.gif", "delay": 100, "x_transform": -10, "y_transform": 0}
+    ]
+}

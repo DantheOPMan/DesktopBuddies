@@ -1,0 +1,5 @@
+1. Get Base software working
+2. Create automatically generated images from server
+3. Call server
+4. Create nft code
+5. Create art 
